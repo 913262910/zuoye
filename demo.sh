@@ -1,6 +1,6 @@
 if [ -d $1 ]; then
 	echo "目录存在"
-	exit 2 
+	exit 3 
 else
 	mkdir $1
 	cd $1
